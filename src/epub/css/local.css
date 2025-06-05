@@ -75,6 +75,14 @@ blockquote[xml|lang]{
 	text-transform: uppercase;
 }
 
+#interlopers-at-the-knap blockquote header p{
+	text-align: initial;
+}
+
+#interlopers-at-the-knap blockquote header p span{
+	font-style: italic;
+}
+
 #master-john-horseleigh-knight blockquote p{
 	font-style: italic;
 }
