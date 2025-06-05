@@ -69,3 +69,26 @@ blockquote[xml|lang]{
 	font-style: italic;
 }
 /* end blocklevel lang italics */
+
+/* Begin Bespoke styling */
+#an-imaginative-woman blockquote header p{
+	text-transform: uppercase;
+}
+
+#master-john-horseleigh-knight blockquote p{
+	font-style: italic;
+}
+
+#the-grave-by-the-handpost blockquote:nth-of-type(2) p{
+	font-variant: small-caps;
+}
+
+#the-three-strangers blockquote:first-of-type p{
+	font-variant: all-small-caps;
+}
+
+#the-three-strangers blockquote:first-of-type p span{
+	font-variant: normal;
+	text-transform: lowercase;
+}
+/* end bespoke styling */
