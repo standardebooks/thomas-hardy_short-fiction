@@ -87,6 +87,17 @@ blockquote[xml|lang]{
 	font-style: italic;
 }
 
+#the-distracted-preacher ul{
+	break-inside: avoid;
+	column-gap: 2em;
+	columns: 3;
+	list-style: none;
+}
+
+#the-distracted-preacher ul:nth-of-type(2){
+	columns: 2;
+}
+
 #the-grave-by-the-handpost blockquote:nth-of-type(2) p{
 	font-variant: small-caps;
 }
