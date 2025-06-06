@@ -71,6 +71,29 @@ blockquote[xml|lang]{
 /* end blocklevel lang italics */
 
 /* Begin Bespoke styling */
+/* Begin Alicia's Diary diary rules */
+blockquote[epub|type~="z3998:diary-entry"]{
+	margin: 0;
+}
+
+#alicias-diary blockquote blockquote{
+	margin: 1em;
+}
+
+blockquote[epub|type~="z3998:diary"] + *{
+	margin-top: 3em;
+}
+
+blockquote[epub|type~="z3998:diary-entry"] + blockquote[epub|type~="z3998:diary-entry"]::before{
+	border-top: 1px solid;
+	content: "";
+	display: block;
+	height: 0;
+	margin: 1.5em auto;
+	width: 25%;
+}
+/* end diary rules */
+
 #an-imaginative-woman blockquote header p{
 	text-transform: uppercase;
 }
