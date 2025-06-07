@@ -45,6 +45,7 @@
 		<meta property="term" refines="#subject-5">sh2008114941</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of Thomas Hardy’s short stories, ordered by date of first publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
