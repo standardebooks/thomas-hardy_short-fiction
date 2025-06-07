@@ -9,7 +9,6 @@
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -26,7 +25,6 @@
 /* End all epigraphs */
 
 /* Epigraphs in section headers */
-article > header [epub|type~="epigraph"],
 section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
@@ -34,13 +32,7 @@ section > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
 @supports(display: table){
-	article > header [epub|type~="epigraph"],
 	section > header [epub|type~="epigraph"]{
 		display: table;
 	}
@@ -123,10 +115,6 @@ blockquote[epub|type~="z3998:diary-entry"]{
 
 #alicias-diary blockquote blockquote{
 	margin: 1em;
-}
-
-blockquote[epub|type~="z3998:diary"] + *{
-	margin-top: 3em;
 }
 
 blockquote[epub|type~="z3998:diary-entry"] + blockquote[epub|type~="z3998:diary-entry"]::before{
