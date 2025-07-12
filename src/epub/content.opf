@@ -50,22 +50,34 @@
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of Thomas Hardy’s short stories, ordered by date of first publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Like a number of his contemporaries, &lt;a href="https://standardebooks.org/ebooks/thomas-hardy"&gt;Thomas Hardy&lt;/a&gt; published many short stories besides his much better known novels. Although not as highly regarded by critics as his novels, appreciation has grown for his small-scale fiction. Hardy himself thought they were worth preserving, supervising four collections during his lifetime which he revisited and tweaked as they were re-published.&lt;/p&gt;
+			&lt;p&gt;Their subject matter coheres well with his novels. Almost without exception they narrate tales of Wessex, Hardy’s beloved region in the southeast of England, largely overlapping with today’s counties of Devon, Somerset, and Dorset. Many are narrated by embedded characters, recalling romances, tragedies, and the occasional triumph from bygone years. Hardy’s familiar themes of misplaced ambition and thwarted love recur frequently.&lt;/p&gt;
+			&lt;p&gt;Hardy published forty-four short stories in his lifetime; two more were published posthumously. The two stories Hardy co-authored are excluded from this collection. One of the posthumously published stories remains under copyright, and two stories are not available in the public domain. The remaining forty-one stories are collected here, and ordered mostly by date of first publication. The sequence found in Hardy’s 1891 collection &lt;i&gt;A Group of Noble Dames&lt;/i&gt; has been retained.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- A Changed Man -->
 		<dc:source>https://www.gutenberg.org/ebooks/3058</dc:source>
+		<!-- this scan copy also includes “The Romantic Adventures of a Milkmaid” -->
 		<dc:source>https://archive.org/details/changedmanwaitin0000thom_t8q2</dc:source>
 		<!-- A Group of Noble Dames -->
 		<dc:source>https://www.gutenberg.org/ebooks/3049</dc:source>
-		<dc:source>https://archive.org/details/bwb_KR-403-427</dc:source>
+		<dc:source>https://archive.org/details/agroupnobledame01hardgoog</dc:source>
 		<!-- Life's Little Ironies -->
 		<dc:source>https://www.gutenberg.org/ebooks/3047</dc:source>
 		<dc:source>https://archive.org/details/dli.ernet.13659</dc:source>
 		<!-- Wessex Tales -->
 		<dc:source>https://www.gutenberg.org/ebooks/3056</dc:source>
 		<dc:source>https://archive.org/details/wessextales00hard_2</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<!-- Individual stories without transcriptions -->
+		<!-- “How I Built Myself a House” -->
+		<dc:source>https://books.google.com/books?id=wa_QAAAAMAAJ</dc:source>
+		<!-- “Destiny and a Blue Cloak” -->
+		<dc:source>https://archive.org/details/ruralcarolinians06char</dc:source>
+		<!-- “The Doctor’s Legend” -->
+		<dc:source>https://archive.org/details/sim_independent_1891-03-26_43_2208</dc:source>
+		<!-- “Old Mrs Chundle” -->
+		<dc:source>https://archive.org/details/sim_ladies-home-journal_1929-02_46_2</dc:source>
+		<meta property="se:production-notes">All Hardy’s sole-authored stories are included in this collection with the following exceptions: two co-authored stories (“The Spectre of the Real” and “Blue Jimmy the Horse Stealer”); two stories without scan copies in the public domain (“The Thieves Who Couldn’t Help Sneezing” and “Our Exploits at West Poley”); and a posthumous story first published in 1992 remains under copyright (“The Unconquerable”).</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-hardy_short-fiction</meta>
@@ -74,11 +86,16 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Hardy</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n79046230</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Franz von Lenbach</dc:contributor>
+		<meta property="file-as" refines="#artist">Lenbach, Franz von</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Franz_von_Lenbach</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80122677</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="illustrator">Emery Walker</dc:contributor>
+		<meta property="file-as" refines="#illustrator">Walker, Emery</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/n50024587</meta>
+		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
+		<meta property="display-seq" refines="#illustrator">0</meta>
 		<dc:contributor id="transcriber-1">David Price</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Price, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
@@ -91,7 +108,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
