@@ -154,6 +154,20 @@ blockquote[epub|type~="z3998:diary-entry"] + blockquote[epub|type~="z3998:diary-
 	columns: 2;
 }
 
+#the-distracted-preacher blockquote{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#the-distracted-preacher blockquote > p{
+	margin-left: 1em;
+}
+
+#the-distracted-preacher blockquote footer{
+	text-align: center;
+}
+
 #the-grave-by-the-handpost blockquote:nth-of-type(2) p{
 	font-variant: small-caps;
 }
