@@ -6,10 +6,4 @@
 			<reason>Ordinal preceded by "the" is correct, to match quotation of an old English inscription.</reason>
 		</ignore>
 	</file>
-	<file path="the-romantic-adventures-of-a-milkmaid.xhtml">
-		<ignore>
-			<code>t-011</code>
-			<reason>Lack of punctuation represents appearance of quoted text.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
