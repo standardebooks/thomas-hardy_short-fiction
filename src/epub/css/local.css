@@ -112,7 +112,6 @@ p span.i3{
 	text-indent: -1em;
 }
 
-p.i4,
 p span.i4{
 	padding-left: 5em;
 	text-indent: -1em;
@@ -136,10 +135,6 @@ blockquote[epub|type~="z3998:diary-entry"]{
 	margin: 0;
 }
 
-#alicias-diary blockquote blockquote{
-	margin: 1em;
-}
-
 blockquote[epub|type~="z3998:diary-entry"] + blockquote[epub|type~="z3998:diary-entry"]::before{
 	border-top: 1px solid;
 	content: "";
@@ -158,11 +153,9 @@ blockquote[epub|type~="z3998:diary-entry"] + blockquote[epub|type~="z3998:diary-
 	text-align: initial;
 }
 
-#interlopers-at-the-knap blockquote header p span{
-	font-style: italic;
-}
 
-#master-john-horseleigh-knight blockquote p{
+#master-john-horseleigh-knight blockquote p,
+#interlopers-at-the-knap blockquote header p span{
 	font-style: italic;
 }
 
@@ -180,11 +173,7 @@ blockquote[epub|type~="z3998:diary-entry"] + blockquote[epub|type~="z3998:diary-
 #the-distracted-preacher blockquote{
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-}
-
-#the-distracted-preacher blockquote > p{
-	margin-left: 1em;
+	max-width: 50%;
 }
 
 #the-distracted-preacher blockquote footer{
