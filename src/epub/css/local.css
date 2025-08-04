@@ -187,6 +187,11 @@ blockquote[epub|type~="z3998:diary-entry"] + blockquote[epub|type~="z3998:diary-
 	font-variant: small-caps;
 }
 
+#the-spectre-of-the-real blockquote header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
 #the-three-strangers blockquote:first-of-type p{
 	font-variant: all-small-caps;
 }
