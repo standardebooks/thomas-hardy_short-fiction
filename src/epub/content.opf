@@ -155,7 +155,6 @@
 		<item href="text/dame-the-tenth.xhtml" id="dame-the-tenth.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/dame-the-third.xhtml" id="dame-the-third.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/destiny-and-a-blue-cloak.xhtml" id="destiny-and-a-blue-cloak.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/enter-a-dragoon.xhtml" id="enter-a-dragoon.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/fellow-townsmen.xhtml" id="fellow-townsmen.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/for-conscience-sake.xhtml" id="for-conscience-sake.xhtml" media-type="application/xhtml+xml"/>
@@ -237,7 +236,6 @@
 		<itemref idref="enter-a-dragoon.xhtml"/>
 		<itemref idref="blue-jimmy-the-horse-stealer.xhtml"/>
 		<itemref idref="old-mrs-chundle.xhtml"/>
-		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="loi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
