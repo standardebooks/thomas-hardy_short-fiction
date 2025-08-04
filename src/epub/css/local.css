@@ -153,7 +153,6 @@ blockquote[epub|type~="z3998:diary-entry"] + blockquote[epub|type~="z3998:diary-
 	text-align: initial;
 }
 
-
 #master-john-horseleigh-knight blockquote p,
 #interlopers-at-the-knap blockquote header p span{
 	font-style: italic;
