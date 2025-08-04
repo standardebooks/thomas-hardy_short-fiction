@@ -6,6 +6,10 @@ q{
 	font-style: italic;
 }
 
+[epub|type~="contributors"]{
+	font-style: italic;
+}
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
