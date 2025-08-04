@@ -135,6 +135,7 @@
 		<item href="text/a-tryst-in-an-ancient-earthwork.xhtml" id="a-tryst-in-an-ancient-earthwork.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/alicias-diary.xhtml" id="alicias-diary.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/an-imaginative-woman.xhtml" id="an-imaginative-woman.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/blue-jimmy-the-horse-stealer.xhtml" id="blue-jimmy-the-horse-stealer.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/dame-the-eighth.xhtml" id="dame-the-eighth.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/dame-the-fifth.xhtml" id="dame-the-fifth.xhtml" media-type="application/xhtml+xml"/>
@@ -147,6 +148,7 @@
 		<item href="text/dame-the-tenth.xhtml" id="dame-the-tenth.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/dame-the-third.xhtml" id="dame-the-third.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/destiny-and-a-blue-cloak.xhtml" id="destiny-and-a-blue-cloak.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/enter-a-dragoon.xhtml" id="enter-a-dragoon.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/fellow-townsmen.xhtml" id="fellow-townsmen.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/for-conscience-sake.xhtml" id="for-conscience-sake.xhtml" media-type="application/xhtml+xml"/>
@@ -167,6 +169,7 @@
 		<item href="text/the-melancholy-hussar-of-the-german-legion.xhtml" id="the-melancholy-hussar-of-the-german-legion.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-romantic-adventures-of-a-milkmaid.xhtml" id="the-romantic-adventures-of-a-milkmaid.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-sons-veto.xhtml" id="the-sons-veto.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-spectre-of-the-real.xhtml" id="the-spectre-of-the-real.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-three-strangers.xhtml" id="the-three-strangers.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-waiting-supper.xhtml" id="the-waiting-supper.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-withered-arm.xhtml" id="the-withered-arm.xhtml" media-type="application/xhtml+xml"/>
@@ -219,12 +222,15 @@
 		<itemref idref="the-fiddler-of-the-reels.xhtml"/>
 		<itemref idref="master-john-horseleigh-knight.xhtml"/>
 		<itemref idref="an-imaginative-woman.xhtml"/>
+		<itemref idref="the-spectre-of-the-real.xhtml"/>
 		<itemref idref="a-committee-man-of-the-terror.xhtml"/>
 		<itemref idref="the-dukes-reappearance.xhtml"/>
 		<itemref idref="the-grave-by-the-handpost.xhtml"/>
 		<itemref idref="a-changed-man.xhtml"/>
 		<itemref idref="enter-a-dragoon.xhtml"/>
+		<itemref idref="blue-jimmy-the-horse-stealer.xhtml"/>
 		<itemref idref="old-mrs-chundle.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="loi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
