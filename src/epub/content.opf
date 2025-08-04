@@ -52,7 +52,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Like a number of his contemporaries, &lt;a href="https://standardebooks.org/ebooks/thomas-hardy"&gt;Thomas Hardy&lt;/a&gt; published many short stories apart from his much better-known body of novels. Although they weren’t as highly regarded by critics as his novels were, appreciation has grown for his small-scale fiction. Hardy himself thought they were worth preserving, supervising four collections during his lifetime which he revisited and tweaked over the years and editions.&lt;/p&gt;
 			&lt;p&gt;Their subject matter coheres well with his novels. Almost without exception they narrate tales of Wessex, Hardy’s beloved region in the southeast of England, which largely overlaps with today’s counties of Devon, Somerset, and Dorset. Many are narrated by embedded characters, recalling romances, tragedies, and the occasional triumph from bygone years. Hardy’s familiar themes of misplaced ambition and thwarted love recur frequently.&lt;/p&gt;
-			&lt;p&gt;Hardy published forty-four short stories in his lifetime, and two more were published posthumously. The two stories Hardy co-authored are excluded from this collection. One of the posthumously published stories is not yet in the public domain, and print editions of two other stories (“Our Exploits at West Poley” and “The Thieves Who Couldn’t Help Sneezing”) couldn’t be located; the remaining forty-one stories are collected here, ordered mostly by date of first publication with the exception of the sequence found in Hardy’s 1891 collection &lt;i&gt;A Group of Noble Dames&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;Hardy published forty-four short stories in his lifetime (including two collaborations), and two more were published posthumously. One of the posthumously published stories is not yet in the public domain, and print editions of two other stories (“Our Exploits at West Poley” and “The Thieves Who Couldn’t Help Sneezing”) couldn’t be located; the remaining forty-three stories are collected here, ordered mostly by date of first publication with the exception of the sequence found in Hardy’s 1891 collection &lt;i&gt;A Group of Noble Dames&lt;/i&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- A Changed Man -->
@@ -77,7 +77,14 @@
 		<dc:source>https://archive.org/details/sim_independent_1891-03-26_43_2208</dc:source>
 		<!-- “Old Mrs Chundle” -->
 		<dc:source>https://archive.org/details/sim_ladies-home-journal_1929-02_46_2</dc:source>
-		<meta property="se:production-notes">All Hardy’s sole-authored stories are included in this collection with the following exceptions: two co-authored stories (“The Spectre of the Real” and “Blue Jimmy the Horse Stealer”); two stories without page scans featuring PD publication dates (“The Thieves Who Couldn’t Help Sneezing” and “Our Exploits at West Poley”); and a posthumous story first published in 1992 remains under copyright (“The Unconquerable”).</meta>
+		<!-- Collaborations -->
+		<!-- “Blue Jimmy” -->
+		<dc:source>https://www.darlynthomas.com/bluejim.htm</dc:source>
+		<dc:source>https://archive.org/details/sim_cornhill-magazine_1911-02_30_176</dc:source>
+		<!-- “The Spectre of the Real” -->
+		<dc:source>https://www.darlynthomas.com/spectre.htm</dc:source>
+		<dc:source>https://archive.org/details/inscarletgreysto00hennrich</dc:source>
+		<meta property="se:production-notes">All Hardy’s sole-authored stories are included in this collection with the following exceptions: two stories without page scans featuring PD publication dates (“The Thieves Who Couldn’t Help Sneezing” and “Our Exploits at West Poley”); and a posthumous story first published in 1992 remains under copyright (“The Unconquerable”).</meta>
 		<meta property="se:word-count">372275</meta>
 		<meta property="se:reading-ease.flesch">69.11</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-hardy_short-fiction</meta>
@@ -85,6 +92,7 @@
 		<meta property="file-as" refines="#author">Hardy, Thomas</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Hardy</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79046230</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Franz von Lenbach</dc:contributor>
 		<meta property="file-as" refines="#artist">Lenbach, Franz von</meta>
