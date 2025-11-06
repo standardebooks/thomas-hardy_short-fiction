@@ -48,6 +48,8 @@
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta property="se:is-a-collection">true</meta>
+		<meta id="collection-1" property="belongs-to-collection">Wessex</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
 		<dc:description id="description">A collection of Thomas Hardy’s short stories, mostly ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Like a number of his contemporaries, &lt;a href="https://standardebooks.org/ebooks/thomas-hardy"&gt;Thomas Hardy&lt;/a&gt; published many short stories apart from his much better-known body of novels. Although they weren’t as highly regarded by critics as his novels were, appreciation has grown for his small-scale fiction. Hardy himself thought they were worth preserving, supervising four collections during his lifetime which he revisited and tweaked over the years and editions.&lt;/p&gt;
