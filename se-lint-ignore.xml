@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="master-john-horseleigh-knight.xhtml">
 		<ignore code="t-066">
+			<line>13</line>
 			<reason>Ordinal preceded by "the" is correct, to match quotation of an old English inscription.</reason>
 		</ignore>
 	</file>
