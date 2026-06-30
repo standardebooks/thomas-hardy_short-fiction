@@ -1,0 +1,1 @@
+All Hardy’s sole-authored stories are included in this collection with the following exceptions: two stories without page scans featuring PD publication dates (“The Thieves Who Couldn’t Help Sneezing” and “Our Exploits at West Poley”); and a posthumous story first published in 1992 remains under copyright (“The Unconquerable”).
