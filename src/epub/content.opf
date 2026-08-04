@@ -51,7 +51,7 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Wessex</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
-		<dc:abstract>A collection of Thomas Hardy’s short stories, mostly ordered by date of publication.</dc:abstract>
+		<meta property="schema:abstract">A collection of Thomas Hardy’s short stories, mostly ordered by date of publication.</meta>
 		<dc:description>
 			&lt;p&gt;Like a number of his contemporaries, &lt;a href="https://standardebooks.org/ebooks/thomas-hardy"&gt;Thomas Hardy&lt;/a&gt; published many short stories apart from his much better-known body of novels. Although they weren’t as highly regarded by critics as his novels were, appreciation has grown for his small-scale fiction. Hardy himself thought they were worth preserving, supervising four collections during his lifetime which he revisited and tweaked over the years and editions.&lt;/p&gt;
 			&lt;p&gt;Their subject matter coheres well with his novels. Almost without exception they narrate tales of Wessex, Hardy’s beloved region in the southeast of England, which largely overlaps with today’s counties of Devon, Somerset, and Dorset. Many are narrated by embedded characters, recalling romances, tragedies, and the occasional triumph from bygone years. Hardy’s familiar themes of misplaced ambition and thwarted love recur frequently.&lt;/p&gt;
